@@ -64,3 +64,13 @@ When you run git pull, if ther eare other changes that have happened on the remo
 Copy this steps becouse i need practice my write english, and sharing my progress.
 
 Testing `git brach`
+
+**Important** Merge Conflicts
+
+If you make a change in your code, and the other partnert change the same file, in the master branch, you had a Merge clonflicts.  
+
+`git log` does is effectively just show you a history of all of the commits that you've made.
+
+`git log` in the console, you'll see a list of all the different commits that have been made.
+
+**And then one other command that's usefl to know is** `git reset`.
