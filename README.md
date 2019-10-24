@@ -7,8 +7,9 @@ My name is Gabriel Jiménez, self-taught student of web development, and compute
 ## Table of Contents
 
 - [Git - Version control](#git-version-control)
-- [What is a Component?](#html-and-css)
-- [Javascript Essential](#javascript-essential)
+- [HTML and CSS](#html-and-css)
+- [Git advanced](#git-advanced)
+- [Flask](#flask)
 
 ## Git - Version control
 
