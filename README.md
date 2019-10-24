@@ -4,7 +4,13 @@ In this repository I will share my progress of the Harvard CS50's, Python and Ja
 
 My name is Gabriel Jiménez, self-taught student of web development, and computer science, I am passionate about software development, I share this repository to take notes of my course.
 
-### Git - Version control
+## Table of Contents
+
+- [Git - Version control](#git-version-control)
+- [What is a Component?](#html-and-css)
+- [Javascript Essential](#javascript-essential)
+
+## Git - Version control
 
 - Keep track of changes to code.
 - Syncrhonizes code between different people.
@@ -74,3 +80,5 @@ If you make a change in your code, and the other partnert change the same file, 
 `git log` in the console, you'll see a list of all the different commits that have been made.
 
 **And then one other command that's usefl to know is** `git reset`.
+
+## HTML and CSS 
