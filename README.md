@@ -83,3 +83,87 @@ If you make a change in your code, and the other partnert change the same file, 
 **And then one other command that's usefl to know is** `git reset`.
 
 ## HTML and CSS 
+
+**What is HTML** This a language via which we're going to be layng out the structure of a web page such that when a user opens up in their web browser.
+
+Example: 
+
+```html
+<h1>Hello, world!</h1>
+```
+
+**Important** 
+
+```html
+<!DOCTYPE html>
+```
+
+The first line just goes mean somenthing along the lines of HTML he come in a number of different version.
+
+It's had a bunch of different standards where people specify, here's what's included in this version of HTML and this new version of HTML.
+
+So that first telling the web browser that this web page is written using HTML5.
+
+**HTML Tags**
+
+Those are these keywords that begin with an angle bracket and end with an angled bracket.
+
+```html
+<h1>Hello</h1>
+```
+
+And if you take a look we've divided that content to the website into two parts.
+
+```html
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset-utf8>
+        <title> Hello in HTML </title>
+    </head>
+    <body>
+        <h1>Welcome a my website</h1>
+    </body>
+</html>
+```
+
+**What is tag HEAD**
+
+The head of the website is usually used for a metada, information about the page that doesn't really appear in the main contents of the page, but is used to give the browser important information about how to go about displayng that page or other important information about it.
+
+
+**What is body tag**
+
+Body tag is all content show in you website, for example a paragraph or image.
+
+
+**Remember** How we use HTML tags to define the structure of our page.
+
+### Identation in programming
+
+The identation will allow can often be easy when another human is reading your code.
+
+### Heading 
+
+```html
+<h1>This is the largest headline</h1>
+<h2>This is also a large headline</h2>
+<h3>This is a slightly smaller headline</h3>
+<h4>This is an even smaller headline</h4>
+<h5>This is the second-smallest headline</h5>
+<h6>This is the smallest headline</h6>
+```
+
+**Important** Theses tags no use for size for you text in you website.
+
+### List in HTML
+
+Unordered list and ordered list.
+
+```html
+<ul></ul> or <ol></ol>
+```
+
+
+
