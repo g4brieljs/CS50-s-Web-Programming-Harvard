@@ -162,7 +162,129 @@ The identation will allow can often be easy when another human is reading your c
 Unordered list and ordered list.
 
 ```html
-<ul></ul> or <ol></ol>
+<ul>
+    <li>
+    </li>
+</ul> 
+
+   <!-- OR -->  
+    
+<ol>
+    <li>
+    </li>
+</ol>
+```
+
+### img in HTML
+
+The tag `<img />`  it's different to others tags in HTML, yes, the reasoning for that is that not all of the HTML tags require a beginnig tag and an end tag astart and an end because some things like images, it doesn't relly make sense to say, OK start the image and end the image and what goes in the middle.
+
+**Important** The HTML attribute.
+
+We can poviding additional information to this tag.
+
+For example:
+
+```html
+
+<img src="img.png" height="200px" width="300px" />
+
+```
+
+With attribute we can change this tag, for example the width and height, and other attributes like `style=""`, we can change the style in html tag.
+
+
+### Table in HTML
+
+
+We will have tables of data with rows and columns and we want to display that data to the user.
+
+So what we have here is a table that represnets US presedints.
+
+```html
+<table>
+    <tr>
+        <th>First Name</th>
+        <th>Last Name</th>
+    </tr>
+    <tr>
+        <td>George</td>
+        <td>Washington</td>
+    </tr>
+    <tr>
+        <td>John</td>
+        <td>Kennedy</td>
+    </tr>
+</table>
+```
+
+**th** tag is **table header**
+**tr** tag is **table row**
+**td** tag is **table data**
+
+
+### Forms in html
+
+```html
+<form>
+    <input type="text" placeholder="Full Name" name="name">
+    <button>Submit!</button>
+</form>
+```
+You have tag input, and attributte `type` this attributte you can indicar que tipo de datos les estarás enviando a tu server.
+
+# Document Object Model 
+
+One helpful way to think about HTML as we think about designig our HTML websites is thinking about them like tree structure.
+
+If you're unfamiliar with tree structures, effectively think of them as a combination of nodes where nodes are just points within this tree that are connected to other nodes.
+
+So in this example, you can look a simple website:
+
+```html
+
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Document Object Model</title>
+        </head>
+
+        <body>
+            <h1>Hello, world!</h1>
+        </body>    
+    </html>
+
+```
+
+![DOM](https://github.com/g4brieljs/React-course/blob/master/06-third-project/search.png)
+
+
+And as we'll see in just a moment we can use this tree in uderstanding what's contained withing what to begin to style our web pages.
+
+And styling our web pages is going to be the precess of taking what so far has just been websites that have a white background and black text on it and maybe images and other thins as well, and stating to add some of our own custom styles to it in order to make it look a little bit nicer to the user.
+
+
+# CSS
+
+Cascading style sheets which is a different language altogether, and we can use to interact with HTML in order to style the HTML in order to chage the way the HTML looks according to rules that we set in order to add color to our web pages, for example or add spacing in places where we want spacing or add borders to things or add a background to things, for instance.
+
+**First step**
+
+```html
+    <link rel="stylesheet" href="style.css">
+```
+
+
+You need create file called style.css
+
+
+Your first steps with css
+
+```css
+    h1{
+        background-color: pink;
+        color: white;
+    }
 ```
 
 
